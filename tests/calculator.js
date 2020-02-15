@@ -26,7 +26,7 @@ describe("Calculator Test", function () {
 
         homepage.enterSecondNumber('4');
 
-        homepage.clickGo();
+        homepage.clickGo1();
 
         homepage.verifyResults('8')
 
