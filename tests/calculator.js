@@ -28,7 +28,7 @@ describe("Calculator Test", function () {
 
         homepage.clickGo();
 
-        homepage.verifyResults('7')
+        homepage.verifyResults('8')
 
         browser.sleep(3000)
     });

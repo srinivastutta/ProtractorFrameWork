@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="1" tests="2" time="8.439">
- <testsuite name="Calculator Test" timestamp="2020-02-15T15:48:26" hostname="localhost" time="8.439" errors="0" tests="2" skipped="0" disabled="0" failures="1">
-  <testcase classname="Calculator Test" name="addition test1" time="5.755" />
-  <testcase classname="Calculator Test" name="addition test2" time="2.679">
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="8.434">
+ <testsuite name="Calculator Test" timestamp="2020-02-15T17:13:53" hostname="localhost" time="8.434" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Calculator Test" name="addition test1" time="5.733" />
+  <testcase classname="Calculator Test" name="addition test2" time="2.698">
    <failure type="exception" message="Failed: No element found using locator: by.cssContainingText(&quot;.ng-binding&quot;, &quot;7&quot;)"><![CDATA[NoSuchElementError: No element found using locator: by.cssContainingText(".ng-binding", "7")
     at C:\Users\pc\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
     at ManagedPromise.invokeCallback_ (C:\Users\pc\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
