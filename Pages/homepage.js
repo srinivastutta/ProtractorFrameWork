@@ -3,6 +3,7 @@ let homepage = function(){
     let firstNumber_input = element(by.model('first'));
     let secondNumber_input = element(by.model('second'))
     let goButton = element(by.css('[ng-click="doAddition()"]'));
+    let history = element.all(by.repeater('result in memory'));
 
     this.get = function(url){
         browser.get(url);
@@ -25,6 +26,13 @@ let homepage = function(){
         let outPut = element(by.cssContainingText('.ng-binding', results));
         expect(outPut.getText()).toEqual(results);
 
+    };
+
+    this.add = function (a,b){
+        firstNumber_input.sendKeys(a);
+        secondNumber_input.sendKeys(b);
+        goButton.click();
+        
     };
 
 };

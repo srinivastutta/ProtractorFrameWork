@@ -19,7 +19,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['E:\\VisualStudio\\WorkSpace\\tests\\calculator.js'],
+  specs: ['E:\\VisualStudio\\WorkSpace\\tests\\history.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
