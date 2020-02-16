@@ -3,11 +3,16 @@ let homepage = function(){
     let firstNumber_input = element(by.model('first'));
     let secondNumber_input = element(by.model('second'))
     let goButton = element(by.css('[ng-click="doAddition()"]'));
+    var select = element(by.css('[ng-model="operator"]'));
     let history = element.all(by.repeater('result in memory'));
 
     this.get = function(url){
         browser.get(url);
     };
+    this.selectdropDown = function(value){
+        select.$(value).click();
+    };
+
 
     this.enterFirstNumber = function(firstNo){
         firstNumber_input.sendKeys(firstNo);

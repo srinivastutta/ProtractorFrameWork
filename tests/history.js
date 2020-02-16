@@ -12,10 +12,14 @@ describe('Verifying history count', function () {
         //to validate row count
         expect(historyCount.count()).toEqual(3);
 
-
+        });
     });
 
+    describe('VerifyPageTitle', function () {
 
+        it('PageTitleTest', function () {
+            homepage.get('http://juliemr.github.io/protractor-demo/');
+            expect(browser.getTitle()).toEqual('Super Calculator');
 
-
-});
+        });
+    });

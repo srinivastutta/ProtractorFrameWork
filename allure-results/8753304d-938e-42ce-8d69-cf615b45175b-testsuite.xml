@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1581853010511' stop='1581853017806'>
+    <name>Verifying history count</name>
+    <title>Verifying history count</title>
+    <test-cases>
+        <test-case start='1581853010511' status='passed' stop='1581853017805'>
+            <name>check the history count</name>
+            <title>check the history count</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

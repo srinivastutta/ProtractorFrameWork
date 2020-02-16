@@ -10,16 +10,21 @@ exports.config = {
   directConnect: true,
 
   // Capabilities to be passed to the webdriver instance.
-  capabilities: {
-    'browserName': 'chrome'
-  },
+  // multiCapabilities: [{
+  //   browserName: 'firefox'
+  // },{
+  //   browserName: 'chrome'
+  // }],
+    capabilities: {
+      browserName: 'chrome' 
+    },
 
   // Framework to use. Jasmine is recommended.
   framework: 'jasmine',
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['E:\\VisualStudio\\WorkSpace\\tests\\history.js'],
+  specs: ['E:\\VisualStudio\\WorkSpace\\tests\\calculator.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {

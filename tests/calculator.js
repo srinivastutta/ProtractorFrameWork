@@ -2,10 +2,12 @@ let homepage = require('../Pages/homepage')
 
 
 describe("Calculator Test", function () {
+    //beforEach function will be executed every 'it' block
+    beforeEach(function () {
+        homepage.get('http://juliemr.github.io/protractor-demo/');
+    });
 
     it("addition test1", function () {
-
-        homepage.get('http://juliemr.github.io/protractor-demo/');
 
         homepage.enterFirstNumber('4');
 
@@ -20,17 +22,16 @@ describe("Calculator Test", function () {
 
     it("addition test2", function () {
 
-        homepage.get('http://juliemr.github.io/protractor-demo/');
-
         homepage.enterFirstNumber('4');
+
+        homepage.selectdropDown('[value="MULTIPLICATION"]');
 
         homepage.enterSecondNumber('4');
 
-        homepage.clickGo1();
+        homepage.clickGo();
 
-        homepage.verifyResults('8')
+        homepage.verifyResults('16')
 
         browser.sleep(3000)
     });
-
 });

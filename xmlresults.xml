@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="8.978">
- <testsuite name="Verifying history count" timestamp="2020-02-16T10:57:57" hostname="localhost" time="8.978" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Verifying history count" name="check the history" time="8.976" />
+<testsuites disabled="0" errors="0" failures="0" tests="2" time="12.246">
+ <testsuite name="Calculator Test" timestamp="2020-02-16T13:19:51" hostname="localhost" time="12.246" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Calculator Test" name="addition test1" time="6.04" />
+  <testcase classname="Calculator Test" name="addition test2" time="6.202" />
  </testsuite>
 </testsuites>
