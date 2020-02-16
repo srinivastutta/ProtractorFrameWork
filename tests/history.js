@@ -8,9 +8,9 @@ describe('Verifying history count', function () {
         homepage.add(2, 3);
         homepage.add(2, 3);
 
-        let history = element.all(by.repeater('result in memory'));
+        let historyCount = element.all(by.repeater('result in memory'));
         //to validate row count
-        expect(history.count()).toEqual(3);
+        expect(historyCount.count()).toEqual(3);
 
 
     });
