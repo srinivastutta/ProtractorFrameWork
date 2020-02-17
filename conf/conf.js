@@ -6,6 +6,7 @@ var reporter = new HtmlScreenshotReporter({
   filename: 'my-report.html'
 });
 
+
 exports.config = {
   directConnect: true,
 
