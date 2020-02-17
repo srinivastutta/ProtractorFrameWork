@@ -1,7 +1,7 @@
 let homepage = require('../Pages/homepage')
 
 
-describe("Calculator Test", function () {
+describe("Calculator Tests", function () {
     //beforEach function will be executed every 'it' block
     beforeEach(function () {
         homepage.get('http://juliemr.github.io/protractor-demo/');
@@ -20,7 +20,7 @@ describe("Calculator Test", function () {
         browser.sleep(2000)
     });
 
-    it("addition test2", function () {
+    it("multiplication test2", function () {
 
         homepage.enterFirstNumber('4');
 
@@ -30,8 +30,16 @@ describe("Calculator Test", function () {
 
         homepage.clickGo();
 
-        homepage.verifyResults('16')
+        homepage.verifyResults('16');
 
         browser.sleep(3000)
     });
+
+    it("addition test3", function () {
+
+        homepage.add('4','5')
+        homepage.verifyResults('9');
+        browser.sleep(3000);
+    });
+
 });
