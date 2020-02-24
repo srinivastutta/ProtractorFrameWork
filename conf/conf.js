@@ -25,7 +25,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['E:\\Protractor Workspace\\JasmineFramework\\tests\\switchTo.js'],
+  specs: ['E:\\Protractor Workspace\\JasmineFramework\\tests\\multiplewindohandle.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
