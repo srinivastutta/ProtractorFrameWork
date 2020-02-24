@@ -5,6 +5,7 @@ describe("Calculator Tests", function () {
     //beforEach function will be executed every 'it' block
     beforeEach(function () {
         homepage.get('http://juliemr.github.io/protractor-demo/');
+        
     });
 
     it("addition test1", function () {
@@ -22,15 +23,17 @@ describe("Calculator Tests", function () {
 
     it("multiplication test2", function () {
 
-        homepage.enterFirstNumber('4');
-
-        homepage.selectdropDown('[value="MULTIPLICATION"]');
+        homepage.enterFirstNumber('5');
+        //way 1
+        //homepage.selectdropDown('[value="MULTIPLICATION"]');
+        //way 2
+        homepage.selectByIndex(4);
 
         homepage.enterSecondNumber('4');
 
         homepage.clickGo();
 
-        homepage.verifyResults('16');
+        homepage.verifyResults('1');
 
         browser.sleep(3000)
     });

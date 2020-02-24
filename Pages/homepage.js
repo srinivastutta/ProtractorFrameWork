@@ -4,11 +4,17 @@ let homepage = function(){
     let secondNumber_input = element(by.model('second'))
     let goButton = element(by.css('[ng-click="doAddition()"]'));
     var select = element(by.css('[ng-model="operator"]'));
+    var selectall = element.all(by.options('value for (key, value) in operators'));
     let history = element.all(by.repeater('result in memory'));
 
     this.get = function(url){
         browser.get(url);
     };
+    this.selectByIndex = function(index){
+        selectall.get(index).click();
+
+    };
+
     this.selectdropDown = function(value){
         select.$(value).click();
     };
