@@ -25,7 +25,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['E:\\Protractor Workspace\\JasmineFramework\\tests\\readjason.js'],
+  specs: ['E:\\Protractor Workspace\\JasmineFramework\\tests\\generaterandomdata.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
