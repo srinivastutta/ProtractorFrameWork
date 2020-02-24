@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="18.697">
- <testsuite name="Double Click Action" timestamp="2020-02-24T19:26:00" hostname="localhost" time="18.697" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Double Click Action" name="Verify double click action " time="18.696" />
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="7.72">
+ <testsuite name="Double Click Action" timestamp="2020-02-24T20:01:49" hostname="localhost" time="7.72" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Double Click Action" name="Verify double click action " time="7.718" />
  </testsuite>
 </testsuites>

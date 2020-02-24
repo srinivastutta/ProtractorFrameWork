@@ -26,11 +26,16 @@ describe ('Double Click Action', function(){
 
     element(by.buttonText('click the button to display a confirm box')).click();
     
+    
+    browser.sleep(2000);
+
     browser.switchTo().alert().getText().then(Message =>{
 
-    console.log('Alert Message is :' +Message)    
+    console.log('Alert Message is :' +Message)
 
-    })
+  
+    browser.sleep(2000);
+})
     
-    });
+});
 })

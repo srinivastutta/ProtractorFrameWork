@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582570909014' stop='1582570916734'>
+    <name>Double Click Action</name>
+    <title>Double Click Action</title>
+    <test-cases>
+        <test-case start='1582570909015' status='passed' stop='1582570916733'>
+            <name>Verify double click action </name>
+            <title>Verify double click action </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
