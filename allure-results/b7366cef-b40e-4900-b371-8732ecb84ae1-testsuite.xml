@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582557350381' stop='1582557362318'>
+    <name>Keyboard Actions</name>
+    <title>Keyboard Actions</title>
+    <test-cases>
+        <test-case start='1582557350383' status='passed' stop='1582557362316'>
+            <name>Verify key Enter action </name>
+            <title>Verify key Enter action </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
