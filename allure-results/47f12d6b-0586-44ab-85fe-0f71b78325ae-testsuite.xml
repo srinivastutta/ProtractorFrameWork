@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582554620806' stop='1582554626882'>
+    <name>Get Current URL</name>
+    <title>Get Current URL</title>
+    <test-cases>
+        <test-case start='1582554620807' status='passed' stop='1582554626881'>
+            <name>Capture Curent URL</name>
+            <title>Capture Curent URL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

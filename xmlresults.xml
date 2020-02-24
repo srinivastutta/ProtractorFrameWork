@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="6.132">
- <testsuite name="Get Text from Webpage" timestamp="2020-02-24T15:22:58" hostname="localhost" time="6.132" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Get Text from Webpage" name="Capture and print Text" time="6.131" />
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="6.076">
+ <testsuite name="Get Current URL" timestamp="2020-02-24T15:30:20" hostname="localhost" time="6.076" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Get Current URL" name="Capture Curent URL" time="6.074" />
  </testsuite>
 </testsuites>
