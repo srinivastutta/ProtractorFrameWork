@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582556625871' stop='1582556635357'>
+    <name>Mouse Moving</name>
+    <title>Mouse Moving</title>
+    <test-cases>
+        <test-case start='1582556625872' status='passed' stop='1582556635356'>
+            <name>Verify Mouse move</name>
+            <title>Verify Mouse move</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

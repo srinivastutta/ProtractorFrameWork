@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="6.074">
- <testsuite name="Get Title" timestamp="2020-02-24T15:51:28" hostname="localhost" time="6.074" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Get Title" name="Capture Title" time="6.072" />
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="9.984">
+ <testsuite name="Mouse Moving" timestamp="2020-02-24T16:06:07" hostname="localhost" time="9.984" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Mouse Moving" name="Verify Mouse move" time="9.982" />
  </testsuite>
 </testsuites>
