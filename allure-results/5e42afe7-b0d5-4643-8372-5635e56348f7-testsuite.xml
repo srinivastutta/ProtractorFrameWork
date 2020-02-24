@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582576638248' stop='1582576638278'>
+    <name>Reading Json Data</name>
+    <title>Reading Json Data</title>
+    <test-cases>
+        <test-case start='1582576638249' status='passed' stop='1582576638257'>
+            <name>Read values from json file</name>
+            <title>Read values from json file</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

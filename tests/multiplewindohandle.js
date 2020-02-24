@@ -1,6 +1,6 @@
-describe ('Double Click Action', function(){
+describe ('Handling multiple Windows', function(){
 
-    it('Verify double click action ', function(){
+    it('Validate multiple windows ', function(){
     
     browser.driver.get('http://demo.automationtesting.in/Windows.html');
 
