@@ -25,7 +25,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['E:\\Protractor Workspace\\JasmineFramework\\tests\\keyboardActions.js'],
+  specs: ['E:\\Protractor Workspace\\JasmineFramework\\tests\\doubleClick.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
