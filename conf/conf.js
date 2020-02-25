@@ -25,8 +25,13 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['E:\\Protractor Workspace\\JasmineFramework\\tests\\readdatafromexcel.js'],
+  specs: ['E:\\Protractor Workspace\\JasmineFramework\\tests\\readingconfigfile.js'],
 
+  params: {
+    url: 'https://www.google.com/',
+    sendkeyvalue: 'Protractor'
+
+  },
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
     defaultTimeoutInterval: 30000

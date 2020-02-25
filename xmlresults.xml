@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="6.913">
- <testsuite name="Reading Excel Data" timestamp="2020-02-25T15:16:19" hostname="localhost" time="6.913" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Reading Excel Data" name="Read values from excel file" time="6.911" />
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="5.038">
+ <testsuite name="Reading config file" timestamp="2020-02-25T16:39:33" hostname="localhost" time="5.038" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Reading config file" name="how to read config file properties" time="5.035" />
  </testsuite>
 </testsuites>
