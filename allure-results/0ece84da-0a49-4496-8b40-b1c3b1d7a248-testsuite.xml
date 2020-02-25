@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582623623605' stop='1582623626038'>
+    <name>Printing all WebELements</name>
+    <title>Printing all WebELements</title>
+    <test-cases>
+        <test-case start='1582623623606' status='passed' stop='1582623626037'>
+            <name>Verify all webelements are printing</name>
+            <title>Verify all webelements are printing</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
