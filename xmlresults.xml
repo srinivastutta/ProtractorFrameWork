@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="3.149">
- <testsuite name="Printing all WebELements" timestamp="2020-02-25T10:41:38" hostname="localhost" time="3.149" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Printing all WebELements" name="Verify all webelements are printing" time="3.147" />
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="6.913">
+ <testsuite name="Reading Excel Data" timestamp="2020-02-25T15:16:19" hostname="localhost" time="6.913" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Reading Excel Data" name="Read values from excel file" time="6.911" />
  </testsuite>
 </testsuites>
